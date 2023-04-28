@@ -1,8 +1,4 @@
-// ignore_for_file: use_build_context_synchronously
-
-
 import 'package:flutter/material.dart';
-
 
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
@@ -37,14 +33,10 @@ class _SignUpState extends State<SignUp> {
                       style: TextStyle(
                       fontSize: 50,
                       fontWeight: FontWeight.bold,
-                    ),
-                    ),
+                    ),),
                   ],
-                ),
-              ),
-              SizedBox(
-                height: 20,
-              ),
+                ),),
+              SizedBox(height: 20,),
               Container(
                 height:400,
                 margin: EdgeInsets.symmetric(horizontal: 10),
